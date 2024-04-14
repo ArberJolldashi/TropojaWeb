@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body class="body">
+<header class="header">
+    <img src="albanian-flag-right.png" alt="" id="left-side">
+    <h1 class="title">Please leave us your feedback</h1>
+    <img src="albanian-flag-left.png" alt="" id="right-side">
+    <div class="divexp">
+        <a href="index.html">
+            <button class="button">Homepage</button>
+        </a>
+    </div>
+</header>
+<div id="formdiv">
+<h2>Contact Us</h2>
+
+<form action="/submit-form" method="post">
+    <label for="name">Name:</label><br>
+    <input class="inputs" type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label><br>
+    <input class="inputs" type="email" id="email" name="email" required><br>
+    <label for="message">Message:</label><br>
+    <textarea class="inputs" id="message" name="message" rows="4" required></textarea><br>
+    <input id="submitimput" type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
